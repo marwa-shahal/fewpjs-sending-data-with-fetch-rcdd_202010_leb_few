@@ -3,7 +3,7 @@
 function submitData(name,email){
   
   let formData = {
-  dogName: "Byron",
+  name: "Byron",
   dogBreed: "Poodle"
 };
  
@@ -16,7 +16,7 @@ let configObj = {
   body: JSON.stringify(formData)
 };
  
-fetch("http://localhost:3000/dogs", configObj)
+fetch("http://localhost:3000/users", configObj)
   .then(function(response) {
     return response.json();
   })
