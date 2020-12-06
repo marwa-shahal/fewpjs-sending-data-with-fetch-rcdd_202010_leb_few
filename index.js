@@ -1,13 +1,13 @@
 // Add your code here
 
-function {
+
   
   let formData = {
   name: "username",
   email: "uaseremail"
 };
  
-let submitData(username,uaseremail) = {
+let submitData = {
   method: 'POST',
   headers: {
     "Content-Type": "application/json",
@@ -16,7 +16,7 @@ let submitData(username,uaseremail) = {
   body: JSON.stringify(formData)
 };
  
-fetch("http://localhost:3000/users", configObj)
+fetch("http://localhost:3000/users", submitData)
   .then(function(response) {
     return response.json();
   })
