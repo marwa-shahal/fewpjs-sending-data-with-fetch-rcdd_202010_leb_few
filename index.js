@@ -1,5 +1,5 @@
 // Add your code here
 
-submitData(name,email){
+function submitData(name,email){
   
 }
