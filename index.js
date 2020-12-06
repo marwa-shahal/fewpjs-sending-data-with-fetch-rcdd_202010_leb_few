@@ -1,13 +1,13 @@
 // Add your code here
 
-function submitData(username,uaseremail){
+function {
   
   let formData = {
   name: "username",
   email: "uaseremail"
 };
  
-let configObj = {
+let submitData(username,uaseremail) = {
   method: 'POST',
   headers: {
     "Content-Type": "application/json",
