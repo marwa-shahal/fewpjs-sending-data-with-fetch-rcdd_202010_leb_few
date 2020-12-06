@@ -1,10 +1,10 @@
 // Add your code here
 
-function submitData(name,email){
+function submitData(username,uaseremail){
   
   let formData = {
-  name: "Byron",
-  email: "Poodle"
+  name: "username",
+  email: "uaseremail"
 };
  
 // method: "POST" is missing from the object below
