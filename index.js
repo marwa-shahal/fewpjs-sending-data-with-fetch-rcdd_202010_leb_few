@@ -7,8 +7,8 @@ function submitData(username,uaseremail){
   email: "uaseremail"
 };
  
-// method: "POST" is missing from the object below
 let configObj = {
+  method: 'POST',
   headers: {
     "Content-Type": "application/json",
     "Accept": "application/json"
